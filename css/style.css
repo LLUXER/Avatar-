@@ -1,0 +1,389 @@
+body,
+pre,
+li,
+dl,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  color: #26c7ea;
+  font-family: "Headland One", serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-content {
+  width: 1030px;
+  padding-left: 12px;
+  padding-right:12px;
+  margin: 0 auto;
+}
+
+/*починається навінаційна панель */
+.navpanel {
+  height: 150px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url("../images/photo-nav-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 3px solid #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 38px 0 204px;
+}
+
+.link-navpanel {
+  width: 186px;
+  height: 72px;
+  margin: 0 168px 0 0;
+}
+
+.containernavlink {
+  display: flex;
+  justify-content: space-between;
+  width: 325px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #94cfff;
+  cursor: pointer;
+}
+
+.navpanel-btn {
+  width: 141px;
+  height: 42px;
+  border: 2px solid #26c7ea;
+  font-size: 20px;
+  margin: 0 37px 0 211px;
+}
+
+/*починається світчер */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-switch-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #ccc;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toggle-switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  width: 11px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-switch
+  input[type="checkbox"]:checked
+  + .toggle-switch-background
+  .toggle-switch-handle {
+  transform: translateX(-15px);
+}
+.lengue {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+  font-family: "Hammersmith One", sans-serif;
+}
+/*починається секція1 */
+.section1 {
+  background: url("../images/man1-bg.jpg") lightgray 50% / cover no-repeat;
+  height: 740px;
+  width: 1440px;
+}
+
+.text {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.section1-text {
+  padding: 171px 0;
+}
+
+.section1-img {
+  width: 152px;
+  height: 40px;
+  padding-left: 55px;
+}
+
+.section1-btn {
+  width: 260px;
+  height: 80px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 28px;
+}
+
+.medialist {
+  position: absolute;
+  margin-left: 986px;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  width: 50px;
+  height: 151px;
+}
+
+.limediainsta {
+  background: url("../images/icons-instagram.png") no-repeat;
+}
+
+.mediainsta {
+  padding: 7px 15px;
+}
+
+.mediaYT {
+  padding: 5px 25px;
+}
+
+.limediatwitter {
+  width: 34px;
+  height: 30px;
+  background: url("../images/icons-twitter.png") no-repeat;
+  margin: 24px 0;
+}
+
+.limediayoutube {
+  width: 50px;
+  height: 30px;
+  background: url("../images/icons-YouTube.png") no-repeat;
+}
+
+.card-bottom {
+  margin-top: 75px;
+  text-align: center;
+  color: #0a3853;
+  font-size: 36px;
+  display: block;
+}
+
+.namecard {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 16px 0 0;
+}
+
+.decoration {
+  margin: 0 auto;
+  margin-top: 8px;
+}
+/*починається сукція2 */
+.section2 {
+  width: 1440px;
+  height: 741px;
+  background: url("../images/woman-bg.png") lightgray 50% / cover no-repeat;
+  margin-top: 350px;
+}
+
+.btn-trailer {
+  width: 215px;
+  height: 25px;
+  border-radius: 45px 0px;
+  margin: 330px 380px;
+  display: inline-block;
+  padding: 23px 10px 27px;
+  font-size: 24px;
+}
+
+.btn-link {
+  font-size: 27px;
+  line-height: 30px;
+  color: #26c7ea;
+}
+
+.btn-trailer:hover,
+.navpanel-btn:hover,
+.section1-btn:hover {
+  background-color: #0c108f;
+  cursor: pointer;
+}
+/*починається секція3 */
+.section-bg3 {
+  width: 1440px;
+  margin-top: 350px;
+  height: 704px;
+  background: url("../images/nebo-bg3.png") lightgray 50% / cover no-repeat;
+}
+
+.section-h3ll {
+  color: #141414;
+  font-size: 32px;
+  font-family: "Headland One", serif;
+  text-align: center;
+  padding: 58px 0 45px;
+  margin: 0;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 35px;
+  row-gap: 24px;
+  padding-bottom: 57px;
+}
+
+.box {
+  width: 320px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bxcd3textop {
+  color: #141414;
+  font-size: 24px;
+  font-family: "Headland One", serif;
+  line-height: 24px;
+}
+.bxtextdown {
+  color: #000;
+  font-size: 24px;
+  font-family: "Headland One", serif;
+  line-height: 24px;
+}
+
+.bximg {
+  width: 152px;
+  height: 40px;
+  margin: 40px 0;
+}
+
+.clnext {
+  color: #141414;
+}
+/* починається футер*/
+.footer {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url("../images/photo-nav-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 3px solid #ffffff;
+  display: flex;
+  padding: 35px 204px 25px;
+  box-sizing: border-box;
+}
+
+.decorfooter {
+  width: 2px;
+  height: 153px;
+  margin: 0 80px;
+  box-sizing: border-box;
+}
+
+.conteiner-footer-texet {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-top: 45px;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 20px;
+  font-family: Inter;
+  width: 675px;
+  height: 24px;
+}
+
+.footer-text2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-vector {
+  margin: 0 15px;
+}
+
+.footer-bottom-tetx {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 21px;
+  position: absolute;
+  margin: 146px 210px 0 474px;
+}
+
+.footer-li {
+  margin: 0 135px;
+}
+
+.link-footer {
+  width: 183px;
+  height: 70px;
+  margin: 41px 0;
+}
